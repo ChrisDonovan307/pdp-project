@@ -8,5 +8,5 @@ output = f'task-1 ran successfully - {datetime.now().strftime("%Y-%m-%d %H:%M:%S
 print(output)
 
 os.makedirs('output', exist_ok=True)
-with open('output/result.txt', 'w') as f:
+with open('output/result.txt', 'a') as f:
     f.write(output + '\n')

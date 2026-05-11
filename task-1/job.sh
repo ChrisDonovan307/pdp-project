@@ -9,9 +9,6 @@
 #SBATCH --output=output/%x_%j.out
 #SBATCH --mail-type=NONE
 
-
-cd /gpfs1/home/c/d/cdonov12/pdp_testing/pdp_proj/task-1
-
 python src/main.py
 
 echo "======" >> log.txt
