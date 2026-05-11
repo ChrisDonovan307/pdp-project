@@ -2,7 +2,7 @@ import time
 import os
 from datetime import datetime
 
-time.sleep(3)
+time.sleep(2)
 
 output = f'task-1 ran successfully - {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}'
 print(output)

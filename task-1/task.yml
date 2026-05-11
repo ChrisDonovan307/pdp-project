@@ -1,3 +1,6 @@
 name: task-1
-entrypoint: ''
+entrypoint: make
 subtasks: []
+slurm:
+  enabled: true
+  script: job.sh
