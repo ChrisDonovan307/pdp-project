@@ -1,2 +1,2 @@
 #!/bin/bash
-PATH=$(pwd)/bin:$PATH pdp run
+PATH=$(pwd)/bin:$PATH pdp run task-2

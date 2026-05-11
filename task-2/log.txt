@@ -1,0 +1,18 @@
+fake sbatch called with: /home/cdonov12/repos/pdp_proj/task-2/job.sh
+======
+node: LT-BL8WT34
+Job ID: 
+Finished: Mon May 11 17:27:43 EDT 2026
+
+fake sbatch called with: /home/cdonov12/repos/pdp_proj/task-2/job.sh
+======
+node: LT-BL8WT34
+Job ID: 
+Finished: Mon May 11 17:28:03 EDT 2026
+
+fake sbatch called with: /home/cdonov12/repos/pdp_proj/task-2/job.sh
+======
+node: LT-BL8WT34
+Job ID: 
+Finished: Mon May 11 17:30:02 EDT 2026
+
