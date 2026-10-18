@@ -1,4 +1,6 @@
-name: pdp_proj
+name: pdp-project
 tasks:
-- task-1
-- task-2
+- task1
+- task2
+- task3
+- task4

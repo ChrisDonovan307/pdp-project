@@ -1,0 +1,4 @@
+name: task2
+entrypoint: 'python src/main.py'
+depends_on:
+  - task1

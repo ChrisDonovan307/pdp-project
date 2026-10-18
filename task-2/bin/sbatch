@@ -1,4 +1,0 @@
-#!/bin/bash
-echo "Submitted batch job 99999"
-echo "fake sbatch called with: $1" >> log.txt
-bash "$1"

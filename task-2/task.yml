@@ -1,6 +1,0 @@
-name: task-1
-entrypoint: make
-subtasks: []
-slurm:
-  enabled: true
-  script: job.sh
