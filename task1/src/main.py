@@ -3,4 +3,4 @@ import shutil
 from pathlib import Path
 
 task_dir = Path(__file__).resolve().parent.parent
-shutil.copy(task_dir / "input" / "data1.csv", task_dir / "output")
+shutil.copy(task_dir / "input" / "data.csv", task_dir / "output")
