@@ -4,3 +4,7 @@ tasks:
 - task2
 - task3
 - task4
+slurm:
+  partition: general
+  time: "1:00:00"
+  mem: 4G

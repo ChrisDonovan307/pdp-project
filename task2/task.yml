@@ -1,4 +1,5 @@
 name: task2
+description: "This is the second task"
 entrypoint: 'python src/main.py'
 depends_on:
   - task1
