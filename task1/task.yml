@@ -1,4 +1,5 @@
 name: task1
 description: "Copies input to output and checks for slurm job and host"
-entrypoint: 'echo "host=$(hostname) slurm_job_id=${SLURM_JOB_ID:-none}" > output/slurm.txt && python src/main.py'
+entrypoint: 'echo "host=$(hostname) slurm_job_id=${SLURM_JOB_ID:-none} partition=${SLURM_JOB_PARTITION:-none}" > output/slurm.txt && python src/main.py'
+clean: [output/data.csv, output/slurm.txt]
 depends_on: []
