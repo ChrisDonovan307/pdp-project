@@ -1,9 +1,9 @@
 name: pdp-project
 tasks:
-- task1
-- task2
-- task3
-- task4
+- 1_import
+- 2_clean
+- 3_model
+- 4_results
 slurm:
   partition: general
   time: "1:00:00"

@@ -1,0 +1,5 @@
+name: 4_results
+description: "Use model to get formatted results for paper"
+entrypoint: 'python src/main.py'
+clean: [output/*]
+depends_on: [ 1_import, 3_model ]

@@ -1,0 +1,5 @@
+name: 3_model
+description: "Run models" 
+entrypoint: 'python src/main.py'
+clean: [output/*]
+depends_on: [ 1_import, 2_clean]

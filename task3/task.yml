@@ -1,5 +1,0 @@
-name: task3
-description: "This is the third task" 
-entrypoint: 'python src/main.py'
-clean: [output/*]
-depends_on: [ task1, task2]
