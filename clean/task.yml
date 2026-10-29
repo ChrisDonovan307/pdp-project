@@ -1,6 +1,6 @@
-name: 2_clean
+name: clean
 description: "Clean dataset"
 entrypoint: 'python src/main.py'
 clean: [output/*]
 depends_on:
-  - 1_import
+  - import
