@@ -1,1 +1,0 @@
-host=f13 slurm_job_id=none partition=none
