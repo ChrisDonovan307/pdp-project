@@ -1,8 +1,9 @@
+import os
 import shutil
-from pathlib import Path
+from glob import glob
 
-task_dir = Path(__file__).resolve().parent.parent
-shutil.copy(
-        task_dir / "input" / "import" / "data.csv", 
-        task_dir / "output"
-)
+changed = os.environ.get("PDP_CHANGED_IMPORT")
+files = changed.splitlines() if changed is not None else glob("input/import/*.csv")
+
+for path in files:
+    shutil.copy(path, "output")

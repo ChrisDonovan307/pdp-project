@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-import shutil
-from pathlib import Path
 
-task_dir = Path(__file__).resolve().parent.parent
-shutil.copy(task_dir / "input" / "data.csv", task_dir / "output")
+import os
+import shutil
+from glob import glob
+
+changed = os.environ.get("PDP_CHANGED")
+files = changed.splitlines() if changed is not None else glob("input/*.csv")
+
+for path in files:
+    shutil.copy(path, "output")

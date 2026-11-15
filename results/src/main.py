@@ -1,8 +1,5 @@
 import shutil
-from pathlib import Path
+from glob import glob
 
-task_dir = Path(__file__).resolve().parent.parent
-shutil.copy(
-        task_dir / "input" / "model" / "data.csv",
-        task_dir / "output"
-)
+for path in glob("input/model/*.csv"):
+    shutil.copy(path, "output")

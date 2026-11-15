@@ -1,4 +1,4 @@
 name: model
-description: "Run models" 
-entrypoint: 'python src/main.py'
-depends_on: [ import, clean]
+description: "Run models"
+entrypoint: "python src/main.py"
+depends_on: ["import:csvs", clean]

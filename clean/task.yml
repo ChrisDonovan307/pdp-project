@@ -1,5 +1,5 @@
 name: clean
 description: "Clean dataset"
-entrypoint: 'python src/main.py'
+entrypoint: "python src/main.py"
 depends_on:
-  - import
+  - import/*.csv
