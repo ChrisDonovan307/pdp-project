@@ -1,5 +1,5 @@
 name: clean
 description: "Clean dataset"
-entrypoint: "python src/main.py"
+entrypoint: "uv run python src/main.py"
 depends_on:
   - import/*.csv

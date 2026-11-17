@@ -1,4 +1,4 @@
 name: results
 description: "Use model to get formatted results for paper"
-entrypoint: "python src/main.py"
-depends_on: ["import/slurm.txt", model]
+entrypoint: "uv run python src/main.py"
+depends_on: [model]
